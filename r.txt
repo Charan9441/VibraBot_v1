@@ -1,0 +1,20 @@
+# --- Core Framework ---
+streamlit>=1.39.0
+
+# --- OpenAI API Client ---
+openai>=1.47.0
+
+# --- Database (SQLite helper) ---
+sqlite-utils>=3.36.0
+
+# --- Optional: Web Search (Perplexity-style answers) ---
+google-search-results>=2.4.2  # SerpAPI client
+
+# --- Utilities ---
+requests>=2.32.0
+tqdm>=4.66.0
+
+# --- Optional (for local RAG or expansion later) ---
+sentence-transformers>=3.0.1
+faiss-cpu>=1.8.0
+langchain>=0.3.0
